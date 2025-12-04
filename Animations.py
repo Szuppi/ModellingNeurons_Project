@@ -157,7 +157,7 @@ def setup_phase_portait_ax(show_ax=False, dpi=300):
     return fig, ax
     '''
 
-def setup_phase_portrait_ax(fig, ax, figsize=(7, 7)):
+def setup_phase_portrait_ax(show_ax=False, dpi=300, figsize=(7, 7)):
     # White background for figure and axes
     fig.patch.set_facecolor("white")
     ax.set_facecolor("white")
